@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: rgb(233, 157, 64);
+  background: -moz-linear-gradient(
+    180deg,
+    rgba(233, 157, 64, 1) 35%,
+    rgba(255, 255, 255, 1) 41%,
+    rgba(246, 246, 246, 1) 74%,
+    rgba(79, 172, 83, 1) 77%
+  );
+  background: -webkit-linear-gradient(
+    180deg,
+    rgba(233, 157, 64, 1) 35%,
+    rgba(255, 255, 255, 1) 41%,
+    rgba(246, 246, 246, 1) 74%,
+    rgba(79, 172, 83, 1) 77%
+  );
+  background: linear-gradient(
+    180deg,
+    rgba(233, 157, 64, 1) 35%,
+    rgba(255, 255, 255, 1) 41%,
+    rgba(246, 246, 246, 1) 74%,
+    rgba(79, 172, 83, 1) 77%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e99d40",endColorstr="#4fac53",GradientType=1);
+  color: #fff;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo {
+  position: absolute;
+  left: 120px;
+  top: 10px;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+.menu {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.menu a {
+  color: white;
+  /* float: right; */
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: #555;
+}
+
+.container {
+  max-width: 500px;
+  margin: 10 20;
+  padding: 10px;
+  text-align: left;
+}
+
+.home-section {
+  background-size: cover;
+  background-position: center;
+  color: rgb(24, 75, 126);
+  padding: 100px 0;
+}
+
+.home-section h1 {
+  font-size: 48px;
+  margin-top: 10px;
+  padding-right: 10px;
+  float: left;
+}
+
+.home-section p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.cta-btn:hover {
+  background-color: #e65400;
+}
